@@ -6,7 +6,7 @@ module.exports = {
         description: `That's a test command`,
         options: [],
     },
-    async execute(interaction, sakura) {
+    async execute(interaction, bot) {
         interaction.createMessage({ flags: 64, content: "Tha't a test message" })
     }
 };
